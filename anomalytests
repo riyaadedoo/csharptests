@@ -150,4 +150,4 @@ if uploaded_file:
         st.altair_chart(line + smooth + points, use_container_width=True)
 
 else:
-    st.info("👈 Upload your Excel file to get started.")
+    st.info("👈 Upload Excel file to get started.")
